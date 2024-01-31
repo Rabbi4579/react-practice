@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.blog{
+  width: 500px;
+  background-color: pink;
+  padding: 20px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
